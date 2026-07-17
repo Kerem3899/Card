@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            background: #1e293b;
+            padding: 30px 20px;
+            border-radius: 24px;
+        }
+
+        .profile-img {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            background: #38bdf8;
+            margin: 0 auto 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .profile-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: #94a3b8;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .link-btn {
+            display: block;
+            background-color: #334155;
+            color: #f8fafc;
+            text-decoration: none;
+            padding: 14px;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+
+        .link-btn.primary {
+            background-color: #38bdf8;
+            color: #0f172a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Profil Resmi -->
+        <div class="profile-img">
+            <img src="linkedin_foto.jpeg" alt="Kerem Sungun">
+        </div>
+        
+        <h1>Kerem Sungun</h1>
+        <p class="subtitle">ETH Zürich · Computer Science</p>
+        
+        <!-- Bağlantılar -->
+        <div class="links">
+            <a href="https://www.linkedin.com/in/kerem-s-425593394/" target="_blank" class="link-btn primary">LinkedIn</a>
+            <a href="mailto:keremsungun@gmail.com" class="link-btn">E-mail</a>
+        </div>
+    </div>
+</body>
+</html>
